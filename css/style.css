@@ -198,12 +198,13 @@ body._lock {
 }
 
 .no-webp .main{
-  background: url("../img/bg.jpg") 0 0/cover no-repeat; }
+   }
 
 .main {
   position: relative;
   padding: 10rem 0rem 1.875rem 0rem;
   min-height: 40.625rem;
+  background: url("../img/bg.jpg") 0 0/cover no-repeat;
 }
 
 .main::before {
