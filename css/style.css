@@ -196,12 +196,10 @@ body._lock {
   color: #000;
 }
 
-.no-webp .main{
-  background: url("../img/bg.jpg") 0 0/cover no-repeat; }
-
 .main {
   position: relative;
   padding: 7.5rem 0rem;
+  background: url("../img/bg.jpg") 0 0/cover no-repeat;
 }
 
 .main::before {
