@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css?_v=20230522122110" />
+  <link rel="stylesheet" href="css/style.css?_v=20230524002413" />
   <title>Главная</title>
 </head>
 
@@ -12,7 +12,7 @@
     <div class="wrapper">
       <header class="header">
   <div class="header__container">
-    <a href="index.html" class="header__logo">Logo</a>
+    <a href="index.html" class="header__logo"><img src="img/logo.svg" alt="logo"/></a>
     <div class="header__menu menu">
       <nav class="menu__body">
         <ul class="menu__list">
@@ -27,7 +27,9 @@
       <main class="page">
         <section class="page__main main">
           <div class="main__container">
-            <h1 class="main__title">Logo</h1>
+            <h1 class="main__title">
+              <img src="img/logo-footer.svg" alt="">
+            </h1>
             <div class="main__text">
               <p>
                 Lorem ipsum, dolor sit <span>amet consectetur</span> adipisicing
@@ -185,7 +187,7 @@
               <div class="block-5__items">
                 <a href="" class="block-5__item item-block-5">
                   <div class="item-block-5__img">
-                    <img src="img/image1.jpg" alt="картинка 2" />
+                    <picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.jpg" alt="картинка 2" /></picture>
                   </div>
                   <div class="item-block-5__body">
                     <div class="item-block-5__text">
@@ -200,7 +202,7 @@
                 </a>
                 <a href="" class="block-5__item item-block-5">
                   <div class="item-block-5__img">
-                    <img src="img/image2.jpg" alt="картинка 3" />
+                    <picture><source srcset="img/image2.webp" type="image/webp"><img src="img/image2.jpg" alt="картинка 3" /></picture>
                   </div>
                   <div class="item-block-5__body">
                     <div class="item-block-5__text">
@@ -219,7 +221,7 @@
                 </a>
                 <a href="" class="block-5__item item-block-5">
                   <div class="item-block-5__img">
-                    <img src="img/image3.jpg" alt="картинка 4" />
+                    <picture><source srcset="img/image3.webp" type="image/webp"><img src="img/image3.jpg" alt="картинка 4" /></picture>
                   </div>
                   <div class="item-block-5__body">
                     <div class="item-block-5__text">
@@ -292,14 +294,23 @@
           </div>
         </section>
       </main>
-      <footer class="footer" id="footer">
+      <footer class="footer">
   <div class="footer__image">
-    <img src="img/footer-bg.jpg" alt="фон" />
+    <picture><source srcset="img/footer-bg.webp" type="image/webp"><img src="img/footer-bg.jpg" alt="фон" /></picture>
   </div>
   <div class="footer__body body-footer">
     <div class="body-footer__container">
       <div class="body-footer__column">
-        <a href="index.html" class="body-footer__logo">Logo</a>
+        <a href="index.html" class="body-footer__logo"
+          ><img src="img/logo-footer.svg" alt="logo"
+        /></a>
+        <div class="body-footer__text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+            maxime repudiandae ipsum sint laborum ratione deleniti.
+          </p>
+        </div>
+        <div class="body-footer__copy">Copyright © 2017 - 2023</div>
       </div>
       <div class="body-footer__column">
         <div class="body-footer__menu menu-body-footer">
@@ -361,11 +372,6 @@
           </nav>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer__bottom bottom-footer">
-    <div class="bottom-footer__container">
-      <div class="bottom-footer__copy">Copyright © 2017 - 2023</div>
     </div>
   </div>
 </footer>
