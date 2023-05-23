@@ -611,10 +611,10 @@ body._lock {
 }
 
 .body-footer__text:not(:last-child) {
-  margin-bottom: 2.3rem;
+  margin-bottom: 5.3rem;
 }
 
-@mediascreen (max-width: 840px) {
+@media (max-width: 840px) {
   margin-bottom: 1.25rem;
 }
 
